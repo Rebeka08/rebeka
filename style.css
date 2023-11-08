@@ -1,0 +1,579 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+    body{
+        background: linear-gradient(290deg, #0dad05 0%, rgb(243, 244, 245) 50%, #dded05 100%);
+        background-position:center ;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+
+        
+        font-size: 14px;
+        line-height: 26px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    h1, h2, h3, h4, h5, h6{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+       
+    }
+    a, a:hover{
+        text-decoration: none;
+        
+    }
+    /* ************global css start***************** */
+.container{
+    width: 1140px;
+    margin: 0px auto;
+}
+.col-12{
+    width:100% ;
+    float: left;
+}
+.col-11{
+    width: 91.67%;
+}
+.col-10{
+    width: 83.33%;
+    float: left;
+
+}
+.col-9{
+    width:75% ;
+    float: left;
+}
+.col-8{
+    width: 66.67%;
+    float: left;
+}
+.col-7{
+    width: 58.33%;
+    float: left;
+}
+.col-6{
+    width:50% ;
+    float: left;
+}
+.col-5{
+    width: 41.67%;
+    float: left;
+}
+.col-4{
+    width:33.330% ;
+    float: left;
+}
+.col-3{
+    width:25% ;
+    float: left;
+}
+.col-2{
+    width:16.67% ;
+    float: left;
+}
+.col-1{
+    width:8.33% ;
+    float: left;
+}
+
+/* ************global css start***************** */
+
+/* ****************section header start************** */
+
+.header{
+    width: 100%;
+    float: right;
+    background: #979893;
+    padding: 0px 100px;
+   
+}
+.header .logo{   
+    
+        font-size: 35px;
+        text-align: left;
+        position: relative;
+        letter-spacing: -6px;
+        font-weight: 600;
+        margin: 20px 0;
+        text-shadow: 3px 4px 7px rgba(81,67,21,0.8);
+        background: -webkit-linear-gradient(245deg, #0dad05 0%, #bfed05 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      
+}
+
+.header .nav{
+    width: 100%;
+    text-align: left;
+    
+}
+.header .nav ul{
+    list-style-type: none;
+    
+}
+.header .nav ul li{
+    display: inline-block;   
+    margin: 20px 0;
+    padding: 0px 15px;
+   
+
+}
+.header .nav ul .active{
+    background: -webkit-linear-gradient(245deg, #0dad05 0%, #bfed05 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+}
+
+.header .nav ul li a{
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    transition: .7s;
+}
+
+.header .nav ul li a:hover{
+    background: -webkit-linear-gradient(245deg, #0dad05 0%, #bfed05 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.header .nav ul .btn-btn{
+    padding: 12px  25px;
+    font-size: 16px;
+    font-weight: 600;
+    float: right;
+    margin: 20px 0;
+    border-radius: 10px;
+    border: 1px solid #0dad05;
+    color: #fff;
+    background: linear-gradient(245deg, #0dad05 0%, #bfed05 100%);
+}
+
+.header .nav ul .btn-btn:hover, .header .nav ul .btn-btn:focus{
+    border: 1px solid #bfed05;
+   color: #fff;
+   background: transparent;
+}
+/* ****************section header start************** */
+
+
+.banner{
+    width: 100%;
+    float: left;
+    height: 720px;
+    padding: 50px 0px;
+}
+
+.banner .find{
+    padding: 20px 50px 0px 0px;
+
+
+}
+.banner .find h1{
+    font-size: 55px;
+    line-height: 65px;
+    font-weight: 600;
+    color: #fff;
+    padding: 30px 0px;
+
+}
+
+.banner .find p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #fff;
+    padding: 30px 0px;
+    letter-spacing: 2px;
+
+}
+
+.banner .find .searching{
+    width: 60%;
+    height: 42px;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 4px;
+    font-weight: 500;
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 0px 10px;
+    border:none ;
+    outline: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 2px 3px 0px;
+    
+
+}
+.banner .find .searching:focus{
+    border: 1px solid #bfed05;
+    outline: none;
+}
+
+.banner .find .btn-btn-1{ 
+    width: 25%;
+    height: 42px;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 20px 10px;
+    border-radius: 10px;
+    border: 1px solid #0dad05;
+    color: #fff;
+    background:linear-gradient(245deg, #0dad05 0%, #bfed05 100%);
+   
+}
+.banner .find .btn-btn-1:hover, .banner .find .btn-btn-1:focus{
+    border: 1px solid #bfed05;
+    color: #fff;
+    background: transparent;
+}
+.subs{
+    width: 100%;
+    padding: 50px 0px;
+  
+
+
+} 
+.subs .one{
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    background-color:  #bfb9b9;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 2px 3px 0px;
+}
+
+
+.subs h3{
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 600;
+    color: #f8f8fc;
+    
+}
+.subs p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #f7f7fa;
+    text-transform: uppercase;
+    
+    
+}
+.banner .banner-img{
+    width: 500px;
+    height: 500px;
+    margin: 30px 0px 40px 70px;  
+    padding: 20px  0px ;
+
+}
+
+
+.banner img{
+    width: 550px;
+    height: 550px;
+    border-radius: 50%; 
+   
+
+}
+/* ***************header/banner end here*************** */
+
+/* ****************fature-01 start************** */
+.fature-01{
+    width: 100%;
+    float: left;
+    padding: 0px 100px;
+    
+   
+}
+
+.fature-01 img{
+    width: 300px;
+    height: 400px;
+    border-radius: 50%;
+    margin: 50px;
+   
+
+}
+
+.fature-01 h5{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500px;
+    color: #04034b;
+    margin:70px 0px 30px ;
+
+}
+.fature-01 h3{
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 600;
+    color: #04034b;
+    
+
+}
+.fature-01 p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #04034b;
+    margin:40px 80px 30px 0px ;
+    
+
+    
+}
+.fature-01 .btn-btn{
+    width: 25%;
+    height: 42px;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 20px 10px;
+    border-radius: 10px;
+    border: 1px solid #0dad05;
+    color: #fff;
+    background:linear-gradient(245deg, #0dad05 0%, #bfed05 100%);
+    transition: .7s;
+
+}
+.fature-01 .btn-btn:hover, .fature-01 .btn-btn:focus{
+    background:linear-gradient(245deg, #0dad05 0%, #bfed05 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    border: 1px solid #bfed05;
+   
+}
+/*****************fature-01 end************** */
+
+/*****************fature-02 start************** */
+.fature-02{
+    width: 100%;
+    float: left;
+    padding: 40px 80px;
+    margin: 40px 0px;
+    border-top: 1px solid #c4bebe;
+
+}
+.fature-02 h3{
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 600;
+    color: #04034b;
+    margin-top: 80px;
+    text-align: center;  
+
+
+}
+.fature-02 p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #04034b;
+    padding: 30px 250px;
+    text-align: center;  
+
+   
+
+}
+
+
+
+.fature-02 .fature-02-img{
+    width: 90%; 
+    height: 450px;
+    margin: 60px 10px;
+    text-align: center;
+    border-radius: 10px;
+    background:  #bfb9b9;
+    transition: .6s;
+    
+    
+}
+.fature-02 .fature-02-img:hover{    
+    background: #fff;
+    box-shadow: 0px 2px 3px 0px;
+    
+}
+
+.fature-02 .fature-02-img  img{
+    width: 100%;
+    height: 300px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.fature-02 .fature-02-img h4{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    color: #04034b;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 25px;
+
+
+}
+
+.fature-02 .fature-02-img h6{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    text-align: left;
+    margin: 10px 25px;
+    color: #04034b;
+
+}
+
+
+
+
+
+
+/*****************fature-02 end************** */
+/* **********************pricing start************ */
+.pricing{
+    width: 100%;
+    float: left;
+    background: url(images/free10.jpg);
+    height: 700px;
+    background-position: cover;
+    background-repeat: no-repeat;    
+    padding: 40px 80px;
+    margin: 60px 0px;
+    opacity: .9;
+    
+
+}
+.pricing h3{
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 80px;
+    text-align: center;  
+
+
+}
+.pricing p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #fff;
+    padding: 30px 250px;
+    text-align: center;  
+
+   
+
+}
+
+
+
+.pricing .inner-pricing{
+    width: 90%;
+    float: left; 
+    height: 200px;
+    margin: 60px 10px;
+    text-align: center;
+    border-radius: 10px;
+    background: linear-gradient(var(--angle,0deg),hsla(0,0%,100%,.5),transparent) border-box;
+    box-shadow: 0px 2px 3px 0px;
+    
+}
+.pricing .inner-pricing:hover{
+    transition: 1s;
+    box-shadow: 0px 2px 3px 4px rgba(0, 0, 0, .1);
+    border: 2px solid #fff;
+    
+    
+}
+.pricing .inner-pricing h5{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: capitalize;
+    margin: 40px 10px 20px;
+}
+
+
+.pricing .inner-pricing h4{
+    font-size: 45px;
+    font-weight: 500;
+    color: #fff;
+    margin: 20px 10px;
+    text-transform: capitalize;
+
+
+
+}
+
+.pricing .inner-pricing h6{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 20px 10px;
+    text-transform: capitalize;
+    color: #fff;
+   
+
+
+}
+
+/* *********************footer start ********************* */
+
+
+
+
+
+
+.footer{
+    width: 100%;
+    float: left;
+    background: #979893;
+    padding: 40px 100px;
+    margin: 0px auto;
+}
+.footer p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    text-align:center;
+    
+    
+
+}
+.footer span{
+color: #fff;
+font-weight:700 ;
+}
+/* ************end************* */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
